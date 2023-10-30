@@ -1,1 +1,3 @@
-# 24-Python-If-Statements
+# Python If Statements Notes
+
+How to make decisions in python programs.
