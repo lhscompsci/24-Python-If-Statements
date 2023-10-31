@@ -1,4 +1,6 @@
 #Making Decisions in Python
+import pygame
+from pygame import K_UP, event
 
 num = 87
 if num >= 90:
@@ -53,3 +55,7 @@ if grade >= 70:
         print("A")
 else:
     print("Failing")
+
+
+if pygame.event.key == pygame.K_UP :
+    print ("Do something")
