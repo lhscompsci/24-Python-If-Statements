@@ -26,7 +26,7 @@ How to make decisions in python programs.
 Events are actions that trigger responses by the program.
 For instance, if a keypress event occurs, the program will respond to that event by performing some action such as closing down.
 
-```
+```python
 if event.type==QUIT or (event.type==KEYUP and 	event.key==K_ESCAPE):
    sys.exit()
             
